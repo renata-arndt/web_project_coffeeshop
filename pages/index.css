@@ -9,7 +9,45 @@
 
 .header {
   background-color: #fff;
-  background-image: url(C:\Users\55119\web_project_coffeeshop_copy\images\background_header.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  max-height: 800px;
+  min-height: 720px;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 183px;
+}
+
+.nav__logo {
+  position: relative;
+  width: 105px;
+  height: 39px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-right: 80px;
+  gap: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
 }
