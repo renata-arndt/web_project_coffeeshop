@@ -6,3 +6,10 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.header {
+  background-color: #fff;
+  background-image: url(C:\Users\55119\web_project_coffeeshop_copy\images\background_header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
