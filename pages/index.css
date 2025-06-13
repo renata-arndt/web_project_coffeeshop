@@ -12,6 +12,8 @@
 /*-----------------HEADER--------------------*/
 
 .header {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   background-image: url(/images/background_header.svg);
   background-repeat: no-repeat;
@@ -78,7 +80,6 @@
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
-  letter-spacing: -1;
 }
 
 .header__title .span-accent {
@@ -109,18 +110,26 @@
 
 .header__footer {
   display: flex;
-  flex-direction: row;
-  align-items: end;
   justify-content: space-between;
+  flex-direction: row;
+  margin-top: auto;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  position: relative;
 }
 
+.header__footer-time {
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+
+.header__footer-address {
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
 /*-----------------RECIPES SECTION--------------------*/
 
 .recipes {
