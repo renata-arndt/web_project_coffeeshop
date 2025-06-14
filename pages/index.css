@@ -59,15 +59,11 @@
   color: #2f80ed;
 }
 
-.header__content {
+.header__title {
   display: flex;
   flex-direction: column;
   margin: 183px 0px 0 80px;
-}
-
-.header__title {
   max-width: 709px;
-  margin-bottom: 28px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -86,6 +82,7 @@
 
 .header__description {
   max-width: 683px;
+  margin: 24px 0 0 80px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
