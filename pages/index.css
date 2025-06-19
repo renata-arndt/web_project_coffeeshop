@@ -214,8 +214,7 @@
 }
 
 .reservation__title {
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin: 100px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -233,6 +232,13 @@
 .reservation__form {
   max-width: 385px;
   border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.reservation__form-container {
+  padding: 0;
+  margin: 0;
 }
 
 .reservation__form-container_label {
@@ -242,6 +248,10 @@
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 8px;
+}
+
+.reservation__form-container_label[type="text"] {
+  margin-top: 80px;
 }
 
 .reservation__form_field {
@@ -282,4 +292,14 @@
   width: 20px;
   height: 20px;
   margin-bottom: 120px;
+  display: inline;
+}
+
+.reservation__form_checkbox[type="checkbox"] {
+  margin-right: 12px;
+}
+
+.reservation__form_checkbox + .reservation__form-container_label {
+  margin: 0;
+  padding: 0;
 }
