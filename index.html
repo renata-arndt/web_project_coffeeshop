@@ -10,7 +10,6 @@
     <meta name="author" content="Renata Arndt" />
     <meta name="keywords" content="Café, Biblioteca, Triple Peaks, Livros" />
     <title>Café Triple Peaks</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -126,6 +125,7 @@
             <h3 class="reservation__title reservation__title_content">
               Reservar uma mesa
             </h3>
+            </div>
             <form class="form reservation__form">
               <fieldset class="reservation__form reservation__form-container">
                 <label class="reservation__form reservation__form_label"
@@ -189,7 +189,46 @@
 
       <!----------- AQUI COMEÇA O RODAPÉ ----------->
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="footer__content footer__content_column">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Logo do café Triple Peaks"
+              class="footer__content footer__content_logo"
+            />
+          </div>
+          <div class="footer__content footer__content_circle"></div>
+          <div class="=footer__content footer__content_social">
+            <h4 class="footer__content footer__content_social-heading">Mídias Sociais</h4>
+            <ul class="footer__list">
+              <li class="footer__list footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    src="./images/facebook_white.svg"
+                    class="footer__social-icon"
+                    alt="Facebook icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    src="./images/instagram_white.svg"
+                    class="footer__social-icon"
+                    alt="Instagram icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <p class="footer__copyright">© 2024 Renata Arndt</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
